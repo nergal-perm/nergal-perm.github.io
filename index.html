@@ -1,18 +1,189 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Eugene Terekhov - Java developer</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The resume of Eugene Terekhov - Java backend developer">
+    <meta name="author" content="Eugene Terekhov">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-1.css">
+</head> 
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<body>
+    <div class="wrapper mt-lg-5">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile" src="assets/images/gravatar.jpg" alt="" style="width: 100px; height: 100px; border-radius: 50%;"/>
+                <h1 class="name">Eugene Terekhov</h1>
+                <h3 class="tagline">Java backend developer</h3>
+            </div><!--//profile-container-->
+            
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fa-solid fa-envelope"></i><a href="mailto: evgen.voheret@gmail.com">evgen.voheret@gmail.com</a></li>
+                    <li class="phone"><i class="fa-solid fa-phone"></i><a href="tel:+995591046716">+995 591 046 716</a></li>
+                    <li class="linkedin"><i class="fa-brands fa-linkedin-in"></i><a href="https://www.linkedin.com/in/eterehov-java-lead/" target="_blank">eterehov-java-lead</a></li>
+                    <li class="github"><i class="fa-brands fa-github"></i><a href="https://github.com/nergal-perm" target="_blank">github.com/nergal-perm</a></li>
+                </ul>
+            </div><!--//contact-container-->
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Education</h2>
+                <div class="item">
+                    <h4 class="degree">BSc in Management</h4>
+                    <h5 class="meta">Perm State University, Russia</h5>
+	                    <div class="time">2001 - 2006</div>
+                </div><!--//item-->
+            </div><!--//education-container-->
+            
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Languages</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Russian <span class="lang-desc">(Native)</span></li>
+                    <li>English <span class="lang-desc">(Professional)</span></li>
+                </ul>
+            </div><!--//languages-->
+        </div><!--//sidebar-wrapper-->
+        
+        <div class="main-wrapper">
+            
+            <section class="section summary-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-user"></i></span>Career Profile</h2>
+                <div class="summary">
+                    <p>Highly experienced Senior Java Developer with 10+ years in enterprise software, specializing in maintainable backend systems and agile methodologies. Proven ability to lead greenfield projects, optimize development workflows, and mentor teams, seeking challenging roles where I can leverage my expertise in Spring Boot and object-oriented design to drive technical excellence and innovation.</p>
+                </div><!--//summary-->
+            </section><!--//section-->
+            
+            <section class="skills-section section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-rocket"></i></span>Skills &amp; interests</h2>
+                <div class="skillset">
+			<ul>
+				<li><strong>Languages:</strong> Java (8+), SQL, Smalltalk, Clojure</li>
+				<li><strong>Frameworks:</strong> Spring (Spring Boot, Spring DI, Spring Data JPA), JUnit</li>
+				<li><strong>Databases:</strong> PostgreSQL, Neo4J</li>
+				<li><strong>Tools:</strong> Git, Maven, Docker, Gitlab, Jira, Confluence</li>
+				<li><strong>Methodologies:</strong> Scrum, Kanban, Theory of Constraints + TameFlow, TDD, Pair programming</li>
+			</ul>
+		</div>  
+            </section><!--//skills-section-->
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+            <section class="section experiences-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-briefcase"></i></span>Experiences</h2>
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Lead Developer</h3>
+                            <div class="time">2019 - Present</div>
+                        </div><!--//upper-row-->
+			<div class="company">MTS Digital, LLC, Moscow, Russia<br/>the biggest Russian telecom operator's IT-subsidiary</div>
+                    </div><!--//meta-->
+                    <div class="details">
+			    <p>Leading Java developer on a greenfield project - the advertisement RCS-messaging platform. The Java backend (SpringBoot, jooq, postgres, RabbitMQ, REST) orchestrated the whole ad campaign lifecycles and also managed users and their tiers/subscriptions:</p>
+			    <ul>
+				    <li>
+initiated, drove and supported an <strong>agile transformation for a team of 7 people</strong>, resulting in much more frequent feature-based deploys (daily vs. bi-weekly). In 2 years the team doubled in size but kept its agility and focus on continuous delivery;
+				    </li>
+				    <li>
+					    proactively developed and deployed <strong>custom tools to improve team’s productivity</strong>, for example, the tailored test data constructor that reduced manual testing time by 50% and enabled the automated end-to-end testing (via Cypress).
+				    </li>
+				    <li>
+					    successfully used principles of object-oriented analysis &amp; design to <strong>iteratively improve the system by introducing more generic algorithms</strong> for specific tasks.
+				    </li>
+			    </ul>
+			    <p>
+Leading Java developer on several small-scale MVPs, mostly concerned with streamlining user's experience on online purchases, be it mobile network service subscriptions or electronic gadgets:
+			    </p>
+			    <ul>
+				    <li>
+					    successfully designed and implemented a custom micro-framework based on decision tables, <strong>enhancing system adaptability and efficiency</strong>;   
+				    </li>
+				    <li>
+					    <strong>optimized backend development workflows</strong> to significantly reduce dependencies on external sales platforms and mitigate potential frontend development bottlenecks;
+				    </li>
+				    <li>
+					    pioneered the <strong>adoption of pair programming and test-driven development (TDD)</strong> methodologies within the backend team, fostering collaboration and code quality;
+				    </li>
+				    <li>
+    developed and deployed generic, configurable mechanism for executing GraphQL queries to external services, ensuring seamless integration and minimal code modifications for future query enhancements.
+				    </li>
+			    </ul>
+			    <p>
+			     Team management advisor/consultant:
+			    </p>
+			    <ul>
+				    <li>
+					    advised team management on modern IT project management (TameFlow, Theory of Constraints), resulting in <strong>improved project predictability and delivery times</strong> by providing a tool for 'aging signals' and statistical forecasting.
+				    </li>
+			    </ul>
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Lead Java Developer</h3>
+                            <div class="time">2017 - 2019</div>
+                        </div><!--//upper-row-->
+			<div class="company">Datatech, LLC, Ufa, Russia <br/>outstaffing software development company</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Leading a three-person team on two custom development projects:</p>  
+			<ul>
+				<li>
+    ported an existing WinMobile application (warehouse logistics) to Android;
+				</li>
+				<li>
+    developed ETL-microservices for integrating a marketplace with various data and service providers.
+				</li>
+			</ul>
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Java developer</h3>
+                            <div class="time">2014 - 2017</div>
+                        </div><!--//upper-row-->
+			<div class="company">Perm Engines, UEC, Perm, Russia<br/>aircraft engines manufacturer</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Solo maintainer for a legacy quality control system - intra-web application written in Java 6 with JSPs:</p>
+			<ul>
+				<li>
+    established an agile workflow, dramatically improved quality of project-related communications between stakeholders, developers and users;
+				</li>
+				<li>
+    implemented custom reporting tool to create, maintain and analyze the whole IT-department work plans based on Redmine and MS Excel.
+				</li>
+			</ul>
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+            </section><!--//section-->
+            
+            
+        </div><!--//main-body-->
+    </div>
+ 
+    <footer class="footer">
+        <div class="text-center">
+            <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+            <small class="copyright">Designed with <i class="fa-solid fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+        
+</body>
+</html> 
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
